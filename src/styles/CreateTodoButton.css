@@ -1,0 +1,17 @@
+.CreateTodoButton {
+    margin-top: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CreateTodoButton__button {
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid #d3d3d3;
+    border-radius: 50%;
+    background-color: rgb(94, 185, 89);
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 700;
+}

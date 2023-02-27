@@ -1,0 +1,33 @@
+.TodoItem {
+    margin: auto;
+    margin-top: 3px;
+    width: 36rem;
+    border: 1px solid #8b8b8b;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TodoItem__icon {
+    /* border: 1px solid red; */
+    width: 4rem;
+    display: flex;
+}
+
+.TodoItem__icon--completed {
+    width: 4rem;
+    color: green;
+    text-decoration: line-through;
+    /* border: 1px solid blueviolet; */
+}
+
+.TodoItem__text {
+    padding-left: 1rem;
+    width: 70%;
+    /* border: 1px solid green; */
+    font-size: 1.5rem;
+}
+
+.TodoItem__text--completed {
+    text-decoration: line-through;
+}
